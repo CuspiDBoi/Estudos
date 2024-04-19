@@ -1,0 +1,11 @@
+<!--Elabore um  programa para uma loja, o qual leia o preço de um produto e informe...
+... as opções de pagamento à vista com 10% de desconto e o valor em 3x-->
+
+<meta charset="UTF-8">
+<script>
+    const preco = Number(prompt("Preço R$: "));
+    const aVista = preco - ((preco*10)/100); //ou  const aVista = preco - (preco*  0.10) ou ou: var avista = preco * 0.90;
+    const tresVezes = preco / 3
+
+    alert(`Valor do produto R$: ${preco }\nÀ vista R$: ${aVista}\nOu 3x de R$: ${tresVezes}`);
+</script>

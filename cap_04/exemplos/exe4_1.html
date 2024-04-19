@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo condições cap4</title>
+    <link rel="stylesheet" href="/cap_04/exemplos/css/style4_2.css">
+</head>
+
+<body>
+    <h1> Progama situação do aluno </h1>
+    <form>
+        <p>Nome do aluno:
+            <input type="text" id="nomedoA" required>
+        </p>
+        <p>1° Nota:
+            <input type="number" min="0" max="10" id="Pnota" step="0.1" required>
+        </p>
+
+        <p>
+            2° Nota:
+            <input  type="number" min="0" max="10" id="Snota" step="0.1" required>
+        </p>
+        <input type="submit" value="Exibir Média e situação">
+    </form>
+    <h3 class="media"></h3>
+    <h4 class="situacao"></h4>
+
+    <script src="/cap_04/exemplos/js/exe4_1.js"></script>
+</body>
+
+</html>
