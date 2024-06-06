@@ -15,6 +15,7 @@ formulario.addEventListener("submit", (e)=>{
     console.log(resposta)
  
     saida.innerText = resposta + "1." 
+    
 
  /*     let resposta = `Entre ${numero} e 1: ${numero} `
  
